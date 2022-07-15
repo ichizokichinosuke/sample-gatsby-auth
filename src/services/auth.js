@@ -24,7 +24,7 @@ export const isLoggedIn = () => {
     return !!user.username
 }
 
-export const Logout = callback => {
+export const logout = callback => {
     setUser({});
     callback();
 }
