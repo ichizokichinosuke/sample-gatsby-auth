@@ -1,6 +1,6 @@
 # Gatsby.js Authentication
 
-Basic認証の代替案
+**Basic認証の代替案**
 
 **デプロイサイトリンク**
 
@@ -50,3 +50,8 @@ Gatsby Cloudにデプロイする。
 username: ken
 
 password: pass
+
+
+### 代替案2（未検証）
+Gatsby．js公式リポジトリのIssueにて議論されていた、```onCreateDevServer``` を使う方法
+https://github.com/gatsbyjs/gatsby/issues/24266
